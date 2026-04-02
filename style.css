@@ -1,0 +1,76 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #667eea, #764ba2);
+}
+
+/* Card */
+.card {
+    background: #fff;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+}
+
+/* Hover Effect */
+.card:hover {
+    transform: translateY(-10px);
+}
+
+/* Image */
+.card img {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Text */
+.card h2 {
+    margin: 10px 0;
+}
+
+.role {
+    color: gray;
+    font-size: 14px;
+}
+
+.desc {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+/* Button */
+button {
+    background: #667eea;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #764ba2;
+}
+
+/* Responsive */
+@media (max-width: 400px) {
+    .card {
+        width: 90%;
+    }
+}
