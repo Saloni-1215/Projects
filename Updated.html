@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Cards</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<button id="toggle">🌙 Dark Mode</button>
+
+<div class="container">
+
+    <!-- Card 1 -->
+    <div class="card">
+        <img src="https://via.placeholder.com/100">
+        <h2>Saloni Jain</h2>
+        <p class="role">Frontend Developer</p>
+
+        <div class="icons">
+            <a href="#">🌐</a>
+            <a href="#">🐦</a>
+            <a href="#">💼</a>
+        </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="card">
+        <img src="https://via.placeholder.com/100">
+        <h2>Rahul Sharma</h2>
+        <p class="role">Backend Developer</p>
+
+        <div class="icons">
+            <a href="#">🌐</a>
+            <a href="#">🐦</a>
+            <a href="#">💼</a>
+        </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="card">
+        <img src="https://via.placeholder.com/100">
+        <h2>Priya Singh</h2>
+        <p class="role">UI/UX Designer</p>
+
+        <div class="icons">
+            <a href="#">🌐</a>
+            <a href="#">🐦</a>
+            <a href="#">💼</a>
+        </div>
+    </div>
+
+</div>
+
+<script>
+const toggle = document.getElementById("toggle");
+toggle.onclick = () => {
+    document.body.classList.toggle("dark");
+};
+</script>
+
+</body>
+</html>
